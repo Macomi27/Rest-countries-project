@@ -1,5 +1,6 @@
 import React from "react";
 import './header.css'
+import { FaMoon } from "react-icons/fa6";
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
       <div className="header-content">
         <h3>Where in the world?</h3>
         <div className="theme-mode">
-            {/* <div className="moonlight"><img src={} alt="" /></div> */}
+            <FaMoon className="moon-icon" />
             <p>dark mode</p>
         </div>
       </div>
