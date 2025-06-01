@@ -4,8 +4,13 @@ import './header.css'
 const Header = () => {
   return (
     <header className="header">
-      <h1>Country Information</h1>
-      <p>Explore countries around the world</p>
+      <div className="header-content">
+        <h3>Where in the world?</h3>
+        <div className="theme-mode">
+            {/* <div className="moonlight"><img src={} alt="" /></div> */}
+            <p>dark mode</p>
+        </div>
+      </div>
     </header>
   );
 }
